@@ -1,0 +1,3 @@
+/home/guneet/Downloads/MC_ASSIGNMENT3_2022190/MatrixCal/app/.cxx/Debug/333n4r2m/x86/CMakeFiles/matrix_calculator.dir
+/home/guneet/Downloads/MC_ASSIGNMENT3_2022190/MatrixCal/app/.cxx/Debug/333n4r2m/x86/CMakeFiles/edit_cache.dir
+/home/guneet/Downloads/MC_ASSIGNMENT3_2022190/MatrixCal/app/.cxx/Debug/333n4r2m/x86/CMakeFiles/rebuild_cache.dir

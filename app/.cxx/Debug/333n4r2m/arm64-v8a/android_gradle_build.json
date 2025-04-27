@@ -1,0 +1,38 @@
+{
+  "buildFiles": [
+    "/home/guneet/Downloads/MC_ASSIGNMENT3_2022190/MatrixCal/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/guneet/Android/Sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/home/guneet/Downloads/MC_ASSIGNMENT3_2022190/MatrixCal/app/.cxx/Debug/333n4r2m/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/guneet/Android/Sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/home/guneet/Downloads/MC_ASSIGNMENT3_2022190/MatrixCal/app/.cxx/Debug/333n4r2m/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "matrix_calculator::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "matrix_calculator",
+      "output": "/home/guneet/Downloads/MC_ASSIGNMENT3_2022190/MatrixCal/app/build/intermediates/cxx/Debug/333n4r2m/obj/arm64-v8a/libmatrix_calculator.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/home/guneet/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/linux-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/home/guneet/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

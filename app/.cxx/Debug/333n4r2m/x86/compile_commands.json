@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/guneet/Downloads/MC_ASSIGNMENT3_2022190/MatrixCal/app/.cxx/Debug/333n4r2m/x86",
+  "command": "/home/guneet/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=i686-none-linux-android24 --sysroot=/home/guneet/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dmatrix_calculator_EXPORTS -I/home/guneet/Downloads/MC_ASSIGNMENT3_2022190/MatrixCal/app/src/main/cpp/src/main/cpp/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/matrix_calculator.dir/matrix_calculator.cpp.o -c /home/guneet/Downloads/MC_ASSIGNMENT3_2022190/MatrixCal/app/src/main/cpp/matrix_calculator.cpp",
+  "file": "/home/guneet/Downloads/MC_ASSIGNMENT3_2022190/MatrixCal/app/src/main/cpp/matrix_calculator.cpp"
+}
+]

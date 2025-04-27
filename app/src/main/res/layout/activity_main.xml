@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f8f8"
+    android:paddingTop="?attr/actionBarSize">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="60dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Matrix Calculator"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#1a237e"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Matrix A dimensions -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/rowsAInput"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Rows A"
+                android:inputType="number"
+                android:padding="12dp"
+                android:layout_marginEnd="8dp" />
+
+            <EditText
+                android:id="@+id/colsAInput"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Cols A"
+                android:inputType="number"
+                android:padding="12dp"
+                android:layout_marginStart="8dp" />
+        </LinearLayout>
+
+        <!-- Matrix B dimensions -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="8dp">
+
+            <EditText
+                android:id="@+id/rowsBInput"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Rows B"
+                android:inputType="number"
+                android:padding="12dp"
+                android:layout_marginEnd="8dp" />
+
+            <EditText
+                android:id="@+id/colsBInput"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Cols B"
+                android:inputType="number"
+                android:padding="12dp"
+                android:layout_marginStart="8dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/generateButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Generate Matrices"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#3949ab"
+            android:textColor="#fff"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Matrix A"
+            android:textColor="#333"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp" />
+
+        <TableLayout
+            android:id="@+id/matrixA_table"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:stretchColumns="*"
+            android:background="#e3e3e3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Matrix B"
+            android:textColor="#333"
+            android:layout_marginTop="12dp"
+            android:textSize="16sp" />
+
+        <TableLayout
+            android:id="@+id/matrixB_table"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:stretchColumns="*"
+            android:background="#e3e3e3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Operation"
+            android:textColor="#333"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/operationSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/calculateButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:backgroundTint="#3949ab"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:padding="14dp" />
+
+        <TextView
+            android:id="@+id/resultLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Result"
+            android:textColor="#1a237e"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            android:visibility="gone" />
+
+        <TableLayout
+            android:id="@+id/result_table"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:background="#e8eaf6"
+            android:stretchColumns="*"
+            android:visibility="gone"/>
+    </LinearLayout>
+</ScrollView>

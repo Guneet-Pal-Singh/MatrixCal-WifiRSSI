@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "/home/guneet/Downloads/MC_ASSIGNMENT3_2022190/MatrixCal/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/guneet/Android/Sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/home/guneet/Downloads/MC_ASSIGNMENT3_2022190/MatrixCal/app/.cxx/Debug/333n4r2m/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/guneet/Android/Sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/home/guneet/Downloads/MC_ASSIGNMENT3_2022190/MatrixCal/app/.cxx/Debug/333n4r2m/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "matrix_calculator::@6890427a1f51a3e7e1df": {
+      "artifactName": "matrix_calculator",
+      "abi": "x86",
+      "output": "/home/guneet/Downloads/MC_ASSIGNMENT3_2022190/MatrixCal/app/build/intermediates/cxx/Debug/333n4r2m/obj/x86/libmatrix_calculator.so",
+      "runtimeFiles": []
+    }
+  }
+}
