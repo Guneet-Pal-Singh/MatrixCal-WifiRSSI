@@ -13,8 +13,8 @@ Welcome! This repository contains **two different Android projects**, separated 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/matrix-wifi-app.git
-   cd matrix-wifi-app
+   git clone https://github.com/Guneet-Pal-Singh/MatrixCal-WifiRSSI
+   cd MatrixCal-WifiRSSI
    ```
 
 2. Checkout the branch you need:
