@@ -55,7 +55,3 @@ Each branch has its own fully independent Android app with its own README.
 
 ---
 
-## ✍️ Author
-- Guneet
-
----
