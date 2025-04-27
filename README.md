@@ -1,57 +1,74 @@
-# Matrix Calculator & WiFi Signal Logger Android Projects
+# Matrix Calculator App (Android + C++)
 
-Welcome! This repository contains **two different Android projects**, separated into different Git branches.
+This Android app allows users to input two matrices and perform the following operations:
 
-| Branch Name        | Project Description                                                               |
-|--------------------|-----------------------------------------------------------------------------------|
-| `matrix-calculator` | Android app to perform matrix operations using C++ native code and vector library |
-| `wifi-signal-logger`| Android app to log WiFi signal strengths across multiple locations                |
+✅ Addition  
+✅ Subtraction  
+✅ Multiplication  
+✅ Element-wise Division
+
+The matrix operations are performed using **C++ native code**, interfaced with Android through **JNI**, and using a vector/matrix library like **Eigen**.
 
 ---
 
-## 📜 How to Access Each Project
+## 📱 Features
 
-1. Clone the repository:
+- Supports **any dimension matrices**.
+- Simple input interface for matrix size and elements.
+- Choice of operations via buttons.
+- Displays the resulting matrix on the screen.
+
+---
+
+## ⚙️ Tech Stack
+
+- Android (Kotlin/Java)
+- C++ (Native code using Eigen or similar)
+- JNI (Java Native Interface)
+- CMake
+
+---
+
+## 🏗️ How to Build
+
+1. Clone the repo and checkout the branch:
    ```bash
    git clone https://github.com/yourusername/matrix-wifi-app.git
    cd matrix-wifi-app
+   git checkout matrix-calculator
    ```
 
-2. Checkout the branch you need:
+2. Open in Android Studio.
 
-   - Matrix Calculator:
-     ```bash
-     git checkout matrix-calculator
-     ```
+3. Make sure **NDK** and **CMake** are installed via SDK Manager.
 
-   - WiFi Signal Logger:
-     ```bash
-     git checkout wifi-signal-logger
-     ```
-
-Each branch has its own fully independent Android app with its own README.
+4. Sync Gradle and **Run** the app.
 
 ---
 
-## ✨ Project Summary
+## 📜 Project Structure
 
-### Matrix Calculator (Branch: `matrix-calculator`)
-- Input two matrices of any dimensions.
-- Perform Add, Subtract, Multiply, and Element-wise Division.
-- Matrix operations are implemented in **C++ using Eigen** (or similar) via **JNI**.
-
-### WiFi Signal Logger (Branch: `wifi-signal-logger`)
-- Scan and log WiFi RSSI (signal strength) values.
-- Collect 100 samples per location.
-- Distinguish and show data from **at least three different locations**.
+```
+app/
+├── src/
+│   ├── main/
+│       ├── cpp/ (matrix operations in C++)
+│       ├── java/com/example/matrixcalculator/ (Android UI and JNI calls)
+│       ├── res/layout/ (UI XML files)
+│       └── AndroidManifest.xml
+└── build.gradle
+```
 
 ---
 
-## 🛠 Requirements
-- Android Studio (latest version recommended)
-- NDK + CMake installed
-- Basic understanding of JNI for native code integration
-- Permissions for WiFi scanning (ACCESS_FINE_LOCATION, ACCESS_WIFI_STATE)
+## 🏆 Marks Mapping
+
+| Task                                  | Marks |
+|---------------------------------------|-------|
+| Activity UI                           | 10    |
+| Interface to accept matrix inputs     | 10    |
+| Use of C++ vector/matrix library       | 5     |
+| Use of Native Code + JNI               | 15    |
 
 ---
 
