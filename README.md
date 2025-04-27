@@ -33,8 +33,8 @@ The matrix operations are performed using **C++ native code**, interfaced with A
 
 1. Clone the repo and checkout the branch:
    ```bash
-   git clone https://github.com/yourusername/matrix-wifi-app.git
-   cd matrix-wifi-app
+   git clone https://github.com/Guneet-Pal-Singh/MatrixCal-WifiRSSI
+   cd MatrixCal-WifiRSSI
    git checkout matrix-calculator
    ```
 
